@@ -1,0 +1,173 @@
+body{
+    background-color: gainsboro;
+    padding: 0;
+    margin: 0;
+}
+
+#row1{
+    text-align: center;
+    margin: 5px auto;
+    color: gray;
+ }
+
+#color {
+    color: blue;
+    background-color: white;
+}
+
+
+#col1 {
+    border: 1px solid gainsboro;
+    background-color: white;
+    
+    margin-left: 0;
+    padding-left: 0;
+    
+}
+
+#column{
+    border: 1px solid gainsboro;
+    background-color: white;
+}
+
+  .row2 {
+    display: flex;
+    padding: 20px;
+  }
+  
+  .column2 {
+    padding: 5px;
+    text-align: center;
+  }
+  h1{
+      margin-top: 10px;
+  }
+  #id{
+      margin-right: 20px;
+  }
+  #col{
+      margin: 20px 0;
+      background-color: lightgray;
+      padding-top: 10px;
+  }
+  
+  .content{
+      text-align: center;
+      display: flex;
+      margin: 20px 0;
+      color: #fff;
+      padding: 0;
+  }
+  #block1{
+      background-color: steelblue;
+      padding: 8px;
+      
+  }
+  #block2{
+      background-color: limegreen;
+      padding: 8px;
+      
+  }
+  #block3{
+      background-color: darkorange;
+      padding: 8px;
+  }
+  #Project{
+      display: flex;
+      margin: 20px 0px;
+
+  }
+  .image{
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+  }
+
+
+  .background::after{
+    margin-left: 0px;
+  } 
+
+  #blog{
+      position: relative;
+      background-color: white;
+
+      
+  }
+
+  .blogpost{
+      position: absolute;
+      text-align: center;
+      transform: translateY(10%);
+      
+     
+  }
+  ol{
+      list-style-type: none;
+
+  }
+  #navi{
+      border-left: 1px solid gainsboro;
+      border-right: 1px solid gainsboro;
+    }
+  
+    .content2{
+        text-align: center;
+        display: flex;
+        margin: 20px 0;
+    }
+ 
+ #background{
+    background-image: url("https://images.unsplash.com/photo-1593642634402-b0eb5e2eebc9?ixid=MXwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwzN3x8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+    background-position: center center;
+    background-color: #cccccc;
+    margin-left: 10px;
+    position: relative;
+    height: 100%;
+    padding: 0;
+    color: white;
+ }
+ .backdrop{
+    background-image:linear-gradient(to bottom, rgba(0,0,0,0.6),rgba(0,0,0,0.5));
+    overflow-x: auto;
+   }
+
+ #arrow{
+     position: relative;
+     background-image: url("https://images.unsplash.com/photo-1611095973362-88e8e2557e58?ixid=MXwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxMXx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+     background-position: center center;
+     padding: 0;
+ }
+ .arrows{
+     position: absolute;
+     top: 90%;
+ }
+
+.contentContainer{
+    padding-right: 10px;
+}
+#img{
+    margin-left: 30px;
+}
+h2{
+    margin:0;
+    padding: 0;
+    background-color: white;
+}
+#content3{
+    background-color: white; 
+    padding: 10px;
+    position: relative;
+}
+.subcontent{
+    position: absolute;
+    transform: translate(-50,-50);
+}
+.div1{
+    background-color: gainsboro;
+    height: 50px;
+}
+
+footer{
+    color:gray
+}
